@@ -79,4 +79,17 @@ def get_auto_clm_tokenizer(
         overwatch.info(f"Initializing Weights from File: `{initial_weights}`...")
         model.load_state_dict(torch.load(initial_weights, map_location=torch.device("cpu")))
 
+
+
+##########################Hard code here #################
+    # tokenizer = AutoTokenizer.from_pretrained(
+    #     "/home/s2678328/tokenizers/tokenzier_Russain/auto_tokenizer_auto",
+    #     config=config,
+    #     cache_dir=paths["tokenizer"],
+    # )
+    tokenizer = AutoTokenizer.from_pretrained(
+        "/home/s2678328/tokenizers/tokenzier_Russain/auto_tokenizer_auto",
+        use_fast=True,
+    )
+########################## 
     return model, tokenizer

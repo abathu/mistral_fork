@@ -1,0 +1,112 @@
+🚀 Starting training job...
+⏱️ Training start time:
+2025-06-28 01:29:31.701303
+/home/s2678328/miniconda3/envs/mistral/bin/python
+bash: --config: command not found
+[*] Mercury :: Launching =>>> 🚀 🙈 🚀
+	=>> "This wind, it is not an ending..." (Robert Jordan - A Memory of Light)
+
+(quinine) Overriding parameters in /home/s2678328/mistral_impossible/conf/datasets/dataset_shuffle_nondeterministic_100M_seed41.yaml from command line (___ is unspecified).
+> (nnodes): ___ --> 1
+> (nproc_per_node): ___ --> 1
+> (training_arguments.fp16): ___ --> True
+> (training_arguments.per_device_train_batch_size): ___ --> 2
+> (training_arguments.warmup_steps): ___ --> 300
+> (training_arguments.max_steps): ___ --> 3000
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d=/home/s2678328/mission-impossible_fork/training/babylm_dataset.py-n=1-g=1-w=1+2025-06-28-01:29:56'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d=/home/s2678328/mission-impossible_fork/training'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d=/home/s2678328/mission-impossible_fork'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d=/home/s2678328'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d=/home'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs/gpt2-small-d='
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral/runs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury/mistral'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp/mercury'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr/nlp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/u/scr'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 265, in <module>
+    train()
+  File "train.py", line 66, in train
+    paths = create_paths(run_id, quinfig.model.id, quinfig.artifacts.run_dir, quinfig.artifacts.cache_dir)
+  File "/home/s2678328/mistral_impossible/src/util/paths.py", line 43, in create_paths
+    paths[p].mkdir(parents=True, exist_ok=True)
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1292, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1292, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1292, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  [Previous line repeated 8 more times]
+  File "/home/s2678328/miniconda3/envs/mistral/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/u'
+⏱️ Training end time:
+2025-06-28 01:29:57.054346
+✅ Training finished

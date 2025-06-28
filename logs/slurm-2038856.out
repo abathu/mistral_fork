@@ -1,0 +1,12 @@
+🚀 Starting training job...
+⏱️ Training start time:
+2025-06-28 01:18:59.261534
+/opt/conda/bin/python
+Traceback (most recent call last):
+  File "/home/s2678328/mistral_impossible/train.py", line 31, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+bash: --nnodes: command not found
+⏱️ Training end time:
+2025-06-28 01:18:59.436318
+✅ Training finished
